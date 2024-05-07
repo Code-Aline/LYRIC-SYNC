@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link href="../static/css/fonts.css" rel="stylesheet">
+    <link href="../static/css/media.css" rel="stylesheet">
+    <link rel="web icon" type="png" href="../static/images/03.png">
+    <title>Serviços</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>LYRIC SYNC</h1>
+        </div>
+
+        <ul>
+            <a href="./index"><li>Inicio</li></a>
+            <a href="./servicos"><li>Serviços</li></a>
+            <a href="./contato"><li>Contato</li></a>
+            <a href="./sobre" id="sobre-btn"><li>Sobre</li></a>
+        </ul>
+
+    </header>
+    
+    <main>
+        <aside>
+            <div class="container" style="justify-content: space-between">
+                <div>
+                <h2><span>Trancrição de videos</span></h2>
+                <p>Faça a sua transcrição de videoclipes curtos aqui.</p>
+                <p>(Informamos que o tempo necessário para a transcrição pode variar de acordo com a duração do vídeo.)</p>
+                <h3>Insira o link para realizar a transcrição: </h3>
+                
+                    <div id="form_fundo" class="url">
+                        <div id="form_frente" class="url">
+                            <form action="/transcricao" method="post" enctype="multipart/form-data">
+                                <input type="text" name="url" id="url"><br>
+                                <button type="submit">ENVIAR</button>
+                                <br>         
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <br><br><br><br>
+                    <p>{{ texto }}</p> 
+                </div>
+            </div>
+        </aside>
+    </main>
+    <div class="container" style="justify-content: space-between">
+        <div >
+            <h2><span>Tradução de arquivos</span></h2>
+            <p>Tradução rápida e fácil de arquivos em PDF para o seu dia a dia, para aprimorar seu conhecimento e interpretação dos documentos.</p>
+            <h3>Envie seu arquivo:</h3>
+            <div id="form_fundo" class="upload">
+                <div id="form_frente" class="upload">
+                    <form action="/upload" method="post" enctype="multipart/form-data">
+                        <input type="file" name="documento" id="documento" accept="application/pdf"><br>
+                        <button type="submit">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+        <br><br><br><br>
+            <p>{{ textoTraduzido }}</p>
+        </div>
+    </div>
+        
+</body>
+</html>
+

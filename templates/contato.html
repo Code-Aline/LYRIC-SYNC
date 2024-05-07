@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link href="../static/css/style.css" rel="stylesheet">
+        <link href="../static/css/fonts.css" rel="stylesheet">
+        <link href="../static/css/media.css" rel="stylesheet">
+        <link rel="web icon" type="png" href="../static/images/03.png">
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                <h1>LYRIC SYNC</h1>
+            </div>
+    
+            <ul>
+                <a href="./index"><li>Inicio</li></a>
+                <a href="./servicos"><li>Serviços</li></a>
+                <a href="./contato"><li>Contato</li></a>
+                <a href="./sobre" id="sobre-btn"><li>Sobre</li></a>
+            </ul>
+        </header>
+        <main>
+            <aside> 
+                <h2><span>Possui algum</span></h2>
+                    <h2>comentario?</h2>
+                    <h3>Nos contate pelo formulario abaixo:</h3>
+            <div class="container" style="justify-content: space-between">
+                <div>
+                    <form id="formulario" action="/enviar" method="POST">
+                        <input type="text" id="nome" name="nome" required>
+                        <input type="email" id="email" name="email" required>
+                        <input type="file" id="anexo" placeholder="Anexo">
+                        <input class="text" id="mensagem" name="mensagem"required>
+                        <input type="submit" value="Enviar >">
+                    </form>
+                </div>
+                <div class="right">
+                    <h3 style="margin-top: -120px;">{{ mensagemSite }}</h3>
+                    <br><br<br<br>
+                    <img style="margin-top: -30px;" src="../static/images/77d0a7c454e658833800528e748edbe9.png" alt="mulher roxa">
+                </div>
+            </div>
+            </aside>
+        </main>
+<body>
+</body>
+</html>
