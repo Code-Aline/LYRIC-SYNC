@@ -1,0 +1,9 @@
+deep_translator==1.11.4
+Flask==3.0.3
+googletrans==4.0.0rc1
+nltk==3.8.1
+openai_whisper==20231117
+PyPDF2==3.0.1
+SpeechRecognition==3.8.1
+whisper==1.1.10
+yt_dlp==2024.4.9
