@@ -1,9 +1,18 @@
 LYRIC SYNC
 ===========
 
-Essa versão inicial é a mais simples. 
+## Essa é a versão inicial. 
 
-Start
+ 🚨Antes de rodar o programa peço:🚨
+
+✦instale no prompt de comando:
+
+    python -m nltk.downloader all
+✦Instale o ffmpeg seguindo as instruções:
+
+    https://phoenixnap.com/kb/ffmpeg-windows
+
+✦Start
 
     python main.py
 
