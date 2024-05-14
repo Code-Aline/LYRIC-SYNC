@@ -5,7 +5,9 @@ LYRIC SYNC
 
  🚨Antes de rodar o programa peço:🚨
 
-✦instale no prompt de comando:
+✦instale no prompt de comando:    
+
+    pip install -r requirements.txt
 
     python -m nltk.downloader all
 ✦Instale o ffmpeg seguindo as instruções:
