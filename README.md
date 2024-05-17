@@ -26,7 +26,8 @@ O projeto LYRIC SYNC surgiu de uma ideia que acredita em uma abordagem inclusiva
  
  ✦Ambiente recomendado para uso será o: Visual Studio Code
 
- 
+ ✦Será necessario que tenha instalado: Microsoft Visual C++ Redistributable
+
  ✦Clone o projeto `git clone https://github.com/Code-Aline/Projeto-IA-do-alem`
 
 
@@ -45,15 +46,16 @@ O projeto LYRIC SYNC surgiu de uma ideia que acredita em uma abordagem inclusiva
     python main.py
 
    
-## Para realizção de testes:
+## Para realização de testes:
 Para teste da funcionalidade de tradução de PDF, fique a vontade se quiser ultilizar o arquivo dentro da pasta de arquivos.
 
 Para transcrição de video deixo minha sugestão: https://www.youtube.com/watch?v=UEcyz0Q6bs8&t
  - Recomendo que faça a escolha de videos mais curtos devido ao tempo de processamento.
 
 Para a analise de sentimentos, deixo os exemplos mais basicos e o resultado que cada um deve retornar:
- - Estou muito satisfeita com o site `Retorna a mensagem positiva!`
- - Estou decepcionada com o tempo de demora do site `Retorna a mensagem negativa!`
+ - Adorei o site! É muito organizado e fácil de navegar. `Retorna a mensagem positiva!`
+ - Não gostei do site. Achei difícil de navegar e lento. `Retorna a mensagem negativa!`
+ - O site é organizado, mas algumas páginas são lentas. `Retorna a mensagem neutra!`
 
 **Mas fique a vontade em testar como desejar.**
 
